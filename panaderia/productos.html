@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitio 1</title>
+    <link href="https://fonts.googleapis.com/css2?family=REM:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+<body>
+    <header>
+      
+        <div class="container">
+            <a href="index.html" id="logo">El Buen Sabor</a>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="acerca.html">Acerca</a></li>
+                    <li><a href="productos.html"class="active">Tienda</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+    <style>
+      /* Estilos CSS para el diseño de la cuadrícula */
+      .grid-container {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-around; /* Alineación horizontal de las columnas */
+          padding: 20px;
+      }
+      .grid-item {
+          width: calc(33.33% - 20px); /* Ancho de cada columna, con margen */
+          margin: 10px;
+          text-align: center;
+          border: 1px solid #ffffff;
+          padding: 20px;
+          box-sizing: border-box;
+          background-color: #ffffff;
+      }
+      .grid-item img {
+          max-width: 100%;
+          height: auto;
+      }
+  </style>
+    <main>
+        
+      <div class="grid-container">
+        <!-- Columna 1 -->
+        <div class="grid-item">
+          <img style="width: 250px; height: auto;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbOwOIgniRD5dv3oMrvSGHtFhBtxQoLay8vA&s" alt="Baguette">
+            <h3>Baguette</h3>
+            <p>$100 la unidad.</p>
+        </div>
+        <!-- Columna 2 -->
+        <div class="grid-item">
+          <img style="width: 250px; height: auto;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxf_i1g9KybIN7L31fJw9pKWb3OAgMM9ZOwA&s" alt="Ciabatta">
+            <h3>Ciabatta</h3>
+            <p>$135 la unidad</p>
+        </div>
+        <!-- Columna 3 -->
+        <div class="grid-item">
+          <img style="width: 250px; height: auto;" src="https://recetasfacilesdeirene.com/wp-content/uploads/2021/02/receta-de-pan-de-centeno.jpg" alt="centeno">
+            <h3>Pan de centeno</h3>
+            <p>$84 la unidad</p>
+        </div>
+        <!-- Columna 4 -->
+        <div class="grid-item">
+          <img style="width: 250px; height: auto;" src="https://cuk-it.com/wp-content/uploads/2023/08/thumb02-3-1024x576.jpg" alt="masa madre">
+            <h3>Pan de masa madre</h3>
+            <p>210 la unidad.</p>
+        </div>
+        <!-- Columna 5 -->
+        <div class="grid-item">
+          <img style="width: 250px; height: auto;" src="https://mandolina.co/wp-content/uploads/2023/06/pan-integral.png" alt="Producto 5">
+            <h3>Pan integral</h3>
+            <p>$125 la unidad</p>
+        </div>
+        <!-- Columna 6 -->
+        <div class="grid-item">
+          <img style="width: 250px; height: auto;" src="https://s1.elespanol.com/2023/04/20/actualidad/757684574_232558064_1024x576.jpg" alt="Producto 6">
+            <h3>Pan de molde</h3>
+            <p>$74 la unidad</p>
+        </div>
+        <!-- Columna 7 -->
+        <div class="grid-item">
+          <img style="width: 250px; height: auto;" src="https://i.blogs.es/0c06de/pan-de-pita-portada/1366_2000.jpg" alt="Producto 7">
+            <h3>Pan pita</h3>
+            <p>$142 la unidad</p>
+        </div>
+        <!-- Columna 8 -->
+        <div class="grid-item">
+          <img style="width: 250px; height: auto;" src="https://assets.elgourmet.com/wp-content/uploads/2023/03/97dee7a5ee5095b05cfaf66b516eaa67_3_3_photo-1024x683.png.webp" alt="Producto 8">
+            <h3>Pan naan</h3>
+            <p>$152 la unidad</p>
+        </div>
+        <!-- Columna 9 -->
+        <div class="grid-item">
+          <img style="width: 250px; height: auto;" src="https://www.comedera.com/wp-content/uploads/2022/02/Pan-brioche-shutterstock_1775534576.jpg" alt="Producto 9">
+            <h3>Brioche</h3>
+            <p>$135 la unidad</p>
+    </div>
+    <div class="grid-container">
+      <!-- Columna 10 -->
+      <div class="grid-item">
+        <img style="width: 250px; height: auto;" src="https://www.nutricionesencial.es/wp-content/uploads/2020/04/pan-de-soda-blog-1-2.jpg" alt="soda">
+          <h3>Pan de soda</h3>
+          <p>$100 la unidad.</p>
+      </div>
+      <!-- Columna 11 -->
+      <div class="grid-item">
+        <img style="width: 250px; height: auto;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqw8LWnRC5G6WuoMYpR2AS2pkLaVstFQsLdg&s" alt="Ciabatta">
+          <h3>Pan de centeno aleman</h3>
+          <p>$135 la unidad</p>
+      </div>
+      <!-- Columna 12 -->
+      <div class="grid-item">
+        <img style="width: 250px; height: auto;" src="https://i.blogs.es/ed10c8/challah1/450_1000.jpg" alt="centeno">
+          <h3>Challah</h3>
+          <p>$210 la unidad</p>
+      </div>
+      <!-- Columna 13 -->  
+      <div class="grid-item">
+        <img style="width: 250px; height: auto;" src="https://i.ytimg.com/vi/R8v9X0WUkuA/maxresdefault.jpg" alt="masa madre">
+          <h3>Bizcocho de grasa</h3>
+          <p>Se vende por kilo</p>
+      </div>
+      <!-- Columna 14 -->
+      <div class="grid-item">
+        <img style="width: 250px; height: auto;" src="https://img-global.cpcdn.com/recipes/3d8f6182abd36dc2/680x482cq70/facturas-de-dulce-de-leche-foto-principal.jpg" alt="Producto 5">
+          <h3>Bizcocho de dulce de leche</legend></h3>
+          <p>Se vende por kilo</p>
+      </div>
+      <!-- Columna 15 -->
+      <div class="grid-item">
+        <img style="width: 250px; height: auto;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9-Md61RqjhRQ1musr9YYmeUy12SPcHp8E2w&s" alt="Producto 6">
+          <h3>Bizcocho de creama pastelera</h3>
+          <p>Se vende por kilo</p>
+      </div>
+      <!-- Columna 16 -->
+      <div class="grid-item">
+        <img style="width: 250px; height: auto;" src="https://media.airedesantafe.com.ar/p/6d4f93351cad1353ba2988ee39c84396/adjuntos/268/imagenes/003/777/0003777042/1200x675/smart/como-hacer-facturas-crema-pastelera-y-membrillo-casa-la-receta-mas-sencilla.png" alt="Producto 7">
+          <h3>bizcocho de membrillo</h3>
+          <p>Se vende por kilo</p>
+      </div>
+      <!-- Columna 17 -->
+      <div class="grid-item">
+        <img style="width: 250px; height: auto;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGxWiHd-XfRRMI2NqSw3vGbUyNJ6yaA8r0sg&s" alt="Producto 8">
+          <h3>Croissant</h3>
+          <p>Se vende por kilo</p>
+      </div>
+      <!-- Columna 18 -->
+      <div class="grid-item">
+        <img style="width: 250px; height: auto;" src="https://cuk-it.com/wp-content/uploads/2022/07/medialunas-faciles.webp" alt="Producto 9">
+          <h3>-Medialuna</h3>
+          <p>Se vende por kilo</p>
+  </div>
+  <div class="grid-container">
+    <!-- Columna 19 -->
+    <div class="grid-item">
+      <img style="width: 250px; height: auto;" src="https://img-global.cpcdn.com/recipes/recipes_14097_v1425641054_receta_foto_00014097-hzfa9c5gs8pgzzse8afo/680x482cq70/berlinesas-o-bolas-de-fraile-con-secreto-foto-principal.jpg" alt="Baguette">
+        <h3>bola de fraile</h3>
+        <p>Se vende por kilo</p>
+    </div>
+    <!-- Columna 20 -->
+    <div class="grid-item">
+      <img style="width: 250px; height: auto;" src="https://i.ytimg.com/vi/mD1fNPqtFwU/maxresdefault.jpg" alt="Ciabatta">
+        <h3>-Vigilante</h3>
+        <p>Se vende por kilo</p>
+    </div>
+    <!-- Columna 21 -->
+    <div class="grid-item">
+      <img style="width: 250px; height: auto;" src="https://i.ytimg.com/vi/oWNGEootWuA/maxresdefault.jpg" alt="centeno">
+        <h3>Masa seca</h3>
+        <p>Se vende por kilo</p>
+    </div>
+    <!-- Columna 22 -->
+    <div class="grid-item">
+      <img style="width: 250px; height: auto;" src="https://tito.uy/wp-content/uploads/PAN-CON-GRASA.jpg" alt="masa madre">
+        <h3>Pan con grasa</h3>
+        <p>Se vende por kilo</p>
+    </div>
+    <!-- Columna 23 -->
+    <div class="grid-item">
+      <img style="width: 250px; height: auto;" src="https://prod-resize.tiendainglesa.com.uy/images/medium/P000966-1.jpg?20210310160053,Ojitos-TIENDA-INGLESA-Kg-en-Tienda-Inglesa" alt="Producto 5">
+        <h3>-Ojitos</h3>
+        <p>Se vende por kilo</p>
+    </div>
+    <!-- Columna 24 -->
+    <div class="grid-item">
+      <img style="width: 250px; height: auto;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlw3JCTU-_7xBnX76ZUWy1OYuZIk1tVduqcA&s" alt="Producto 6">
+        <h3>-Donas</h3>
+        <p>Se vende por kilo</p>
+    </div>
+    <!-- Columna 25 -->
+    <div class="grid-item">
+      <img style="width: 250px; height: auto;" src="https://img-global.cpcdn.com/recipes/202158bef93121c3/1200x630cq70/photo.jpg" alt="Producto 7">
+        <h3>Chaja</h3>
+        <p>$350 la unidad</p>
+    </div>
+    <!-- Columna 26 -->
+    <div class="grid-item">
+      <img style="width: 250px; height: auto;" src="https://www.cocina-uruguaya.com/base/stock/Recipe/massini-estilo-uruguayo/massini-estilo-uruguayo_web.jpg.webp" alt="Producto 8">
+        <h3>Massini</h3>
+        <p>$148 la unidad</p>
+    </div>
+    <!-- Columna 27 -->
+    <div class="grid-item">
+      <img style="width: 250px; height: auto;" src="https://www.comedera.com/wp-content/uploads/2018/09/flan-de-queso.jpg" alt="Producto 9">
+        <h3>Flan con dulce de leche</h3>
+        <p>$70 la unidad</p>
+</div>
+<div class="grid-container">
+  <!-- Columna 28 -->
+  <div class="grid-item">
+    <img style="width: 250px; height: auto;" src="https://cuk-it.com/wp-content/uploads/2020/11/pastafrola-membrillo.webp" alt="soda">
+      <h3>Pastafrola</h3>
+      <p>$230 la unidad</p>
+  </div>
+  <!-- Columna 29 -->
+  <div class="grid-item">
+    <img style="width: 250px; height: auto;" src="https://i.ytimg.com/vi/jAQZhC-2ro0/maxresdefault.jpg" alt="Ciabatta">
+      <h3>Postre de cafe</h3>
+      <p>$200 la unidad</p>
+  </div>
+  <!-- Columna 30 -->
+  <div class="grid-item">
+    <img style="width: 250px; height: auto;" src="https://i.ytimg.com/vi/G3OQeqA7vSg/maxresdefault.jpg" alt="centeno">
+      <h3>Torta de chocolate</h3>
+      <p>$180 la unidad</p>
+  </div>
+  <!-- Columna 31 -->  
+  <div class="grid-item">
+    <img style="width: 250px; height: auto;" src="https://www.clarin.com/img/2023/04/20/3Gh2PIbUg_1200x630__1.jpg" alt="masa madre">
+      <h3>Torta de ricota</h3>
+      <p>$250 la unidad</p>
+  </div>
+  <!-- Columna 32 -->
+  <div class="grid-item">
+    <img style="width: 250px; height: auto;" src="https://www.clarin.com/img/2020/08/27/PKMxPZps0_1200x630__1.jpg" alt="Producto 5">
+      <h3>Torta Rogel</legend></h3>
+      <p>$600 la unidad</p>
+  </div>
+  <!-- Columna 33 -->
+  <div class="grid-item">
+    <img style="width: 250px; height: auto;" src="https://cdn0.recetasgratis.net/es/posts/2/0/7/bizcocho_de_zanahoria_de_la_abuela_76702_orig.jpg" alt="Producto 6">
+      <h3>Torta de zanahoria</h3>
+      <p>$230 la unidad</p>
+  </div>
+  <!-- Columna 34 -->
+  <div class="grid-item">
+    <img style="width: 250px; height: auto;" src="https://i0.wp.com/www.manualidadesapasos.com/wp-content/uploads/2020/04/receta-tarta-de-manzana.jpg?fit=800%2C534&ssl=1" alt="Producto 7">
+      <h3>Torta de manzana</h3>
+      <p>$280 la unidad</p>
+  </div>
+  <!-- Columna 35 -->
+  <div class="grid-item">
+    <img style="width: 250px; height: auto;" src="https://www.recetasnestle.com.ec/sites/default/files/styles/recipe_detail_desktop/public/srh_recipes/7f9ebeaceea909a80306da27f0495c59.jpg?itok=jvnFYyGL" alt="Producto 8">
+      <h3>-Cheesecakes</h3>
+      <p>$1200 la unidad</p>
+  </div>
+  <!-- Columna 36 -->
+  <div class="grid-item">
+    <img style="width: 250px; height: auto;" src="https://i.pinimg.com/736x/6f/8f/e4/6f8fe4ec7c368c8c7ff7e2a1a6db99ec.jpg" alt="Producto 9">
+      <h3>-Torta helada</h3>
+      <p>$1000 la unidad</p>
+</div>
+    </main>
+    <footer></footer>
+    
+</body>
+</html>
